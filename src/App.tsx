@@ -17,7 +17,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-// github logo removed
       <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
